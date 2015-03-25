@@ -1,4 +1,4 @@
-"use strict";
+cordova.define("nl.x-services.cordova.plugin.calendar.Calendar", function(require, exports, module) {
 function Calendar() {
 }
 
@@ -227,4 +227,6 @@ cordova.addConstructor(function() {
   ;
 
   cordova.plugins.calendar = new Calendar();
+});
+
 });
